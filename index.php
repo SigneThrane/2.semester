@@ -16,7 +16,7 @@
                    <br>
                    adobe programmer som: Illustator, XD, Photoshop, Indesign, After effects og premiere.
                     </p>
-                    <a href="/cv/CV.jpg" download class="download-btn">Download CV</a>
+                    <a href=<?php the_field('cv_page'); ?> download class="download-btn">Download CV</a>
                  </div>
              </div>
 
