@@ -296,11 +296,10 @@ body {
 }
 
 /*Mobile*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
     body {
         margin: 20px;
-        width: 290px;
-        height: 100px;
+        overflow-x: hidden;
     }
     .download-btn {
         font-size: 10px;
@@ -319,6 +318,8 @@ body {
     }
     .card-container-1 {
    font-size: 20px;
+   display: block;
+
     }
     .section-3 {
         height: 100px;
@@ -329,21 +330,21 @@ body {
     
     }
     .card-container-3 {
-        height: 650px;
+    
         margin: 25px;
         display: block;
     }
     .card-container-4 {
-        height:320px;
+      
         margin: 25px;
         display: block;
     }
     .card-container-5 {
-        height: 460px;
+
         display: block;
     }
     .card-container-6 {
-        height: 100px;
+
         display: block;
     } 
     .card-container-7 {
@@ -397,66 +398,19 @@ body {
   justify-content: center;
 }
 .card-container-1 img{
-    width: 200px;
-    height:150px ;
-    padding: 10px;
-    position: relative;
-  }
-
-  .card-container-3 img{
-    width: 190px;
-    height:200px ;
+    width: 30%;
     padding: 10px;
   }
 
-  .card-container-4 img{
-    width: 200px;
-    height:150px ;
-    padding: 10px;
+  .esbjerg, .halloween, .france{
+    max-width: 25%;
   }
 
-  .card-container-5 img{
-    width: 180px;
-    height:150px ;
-    padding: 10px;
+ .oms, .trapholt{
+    max-width: 30%;
   }
 
-/*Images distance*/
-  .p1{
-    height:200px ;
+.artwork1, .artwork2, .artwork3{
+    max-width: 20%;
   }
-  .p2{
-    height:200px ;
-  }
-  .p3{
-    height:200px ;
-  }
-  .p4{
-    height:150px ;
-  }
-  .p5{
-    height:200px ;
-  }
-  .ar1{
-    height:170px ;
-  }
-  .ar2{
-    height:170px ;
-  }
-  .ar3{
-    height:170px ;
-  }
-
-  .info {
-    height: 50px;  
-}
-
-.picture {
-    height: 50px;
-}
-
-.ss {
-    height: 50px;
-}
-
 }

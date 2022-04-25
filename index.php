@@ -7,7 +7,7 @@
              <div class="card-container-1">
                  <div class="pic1"><img src="<?php the_field('front_billede'); ?>" alt="" /></div>
                  <div class="text1">
-                    <p class="section-3" id="section-3">Resume</p>
+                    <p id="section-3">Resume</p>
                     <p>
                    Hej mit navn er Signe Thrane!
                    Jeg går på Erhversakadamiet i Esbjerg, hvor jeg læser til multiemediedesigner.
@@ -36,9 +36,9 @@
               </div>
               
               <div class="card-container-3">
-                  <div class="p1"><img src="<?php the_field('esbjerg_party'); ?>" alt=""/></div>
-                  <div class="p2"><img src="<?php the_field('halloween_party'); ?>" alt=""></div>
-                  <div class="p3"><img src="<?php the_field('tour_de_france'); ?>" alt=""></div>
+                  <div class="p1"><img src="<?php the_field('esbjerg_party'); ?>" class="esbjerg" alt=""/></div>
+                  <div class="p2"><img src="<?php the_field('halloween_party'); ?>" class="halloween" alt=""></div>
+                  <div class="p3"><img src="<?php the_field('tour_de_france'); ?>" class="france" alt=""></div>
               </div>
             
 
@@ -58,8 +58,8 @@
               </div>
 
               <div class="card-container-4">
-                <div class="p4"><img src="<?php the_field('oms_hjemmeside'); ?>" alt=""></div>
-                <div class="p5"><img src="<?php the_field('trapholt_hjemmeside'); ?>" alt=""></div>
+                <div class="p4"><img src="<?php the_field('oms_hjemmeside'); ?>" class="oms" alt=""></div>
+                <div class="p5"><img src="<?php the_field('trapholt_hjemmeside'); ?>" class="trapholt" alt=""></div>
             </div>
             <div class="card-container-8">
                 <div class="te4">
@@ -76,9 +76,9 @@
               </div>
 
             <div class="card-container-5">
-                <div class="ar1"><img src="<?php the_field('artwork_1'); ?>" alt=""></div>
-                <div class="ar2"><img src="<?php the_field('artwork_2'); ?>" alt=""></div>
-                <div class="ar3"><img src="<?php the_field('artwork_3'); ?>" alt=""></div>
+                <div class="ar1"><img src="<?php the_field('artwork_1'); ?>" class="artwork1" alt=""></div>
+                <div class="ar2"><img src="<?php the_field('artwork_2'); ?>" class="artwork2" alt=""></div>
+                <div class="ar3"><img src="<?php the_field('artwork_3'); ?>" class="artwork3" alt=""></div>
             </div>  
         </section>
         <?php get_footer(); ?>
