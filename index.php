@@ -1,11 +1,11 @@
 <?php get_header(); ?>
         <section>
              <div class="card-container">
-               <div class="front"><img src="<?php the_field('front_picture'); ?>"width="1500" height="500" alt="" /> </div>
+               <div class="front"><img src="<?php the_field('front_picture'); ?>" alt="" /> </div>
              </div>
 
              <div class="card-container-1">
-                 <div class="pic1"><img src="<?php the_field('front_billede'); ?>" alt="" /></div>
+                 <div class="pic1"><img src="<?php the_field('front_billede'); ?>" class="billedemig" alt="" /></div>
                  <div class="text1">
                     <p id="section-3">Resume</p>
                     <p>
